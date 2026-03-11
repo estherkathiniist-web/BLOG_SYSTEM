@@ -1,0 +1,97 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "author": "Esther Kathini",
+      "title": "Introduction to React JS",
+      "content": "React is a popular JavaScript library used for building interactive user interfaces. It allows developers to create reusable components, making applications easier to organize and maintain as they grow.\n\nOne of the reasons React is widely used is its efficient way of updating the DOM through the virtual DOM. This improves performance and gives developers a structured way to build modern single-page applications."
+    },
+    {
+      "id": "2",
+      "author": "Bigman Kelly",
+      "title": "Understanding Components in React",
+      "content": "Components are the building blocks of every React application. They help developers divide the user interface into smaller, reusable pieces, each responsible for a specific part of the page.\n\nBy using components, code becomes easier to read, test, and maintain. This approach also encourages reusability, since the same component can be used in different sections of an application with different data."
+    },
+    {
+      "id": "3",
+      "author": "Sophia Williams",
+      "title": "React Props Made Simple",
+      "content": "Props are used in React to pass data from a parent component to a child component. They make components dynamic by allowing different values to be supplied depending on where the component is being used.\n\nFor example, a blog card component can receive a title, author, and content preview through props. This makes it possible to reuse the same component structure while displaying different blog information."
+    },
+    {
+      "id": "4",
+      "author": "Sophia Williams",
+      "title": "Managing State in React",
+      "content": "State in React is used to store data that can change over time within a component. Examples include form inputs, counters, and fetched API data that needs to be displayed on the page.\n\nWhen state changes, React automatically re-renders the component to show the updated information. This makes state a powerful feature for creating interactive and responsive user interfaces."
+    },
+    {
+      "id": "5",
+      "author": "Sophia Williams",
+      "title": "Why React Hooks Matter",
+      "content": "React Hooks allow developers to use state and other React features inside functional components. Hooks like useState and useEffect have made functional components more powerful and easier to work with.\n\nHooks also help simplify code by reducing the need for class components in many situations. They make it easier to manage side effects, local state, and reusable logic in a cleaner way."
+    },
+    {
+      "id": "6",
+      "author": "Colins Owanda",
+      "title": "Why Developers Love React",
+      "content": "React is loved by developers because of its simplicity, component-based architecture, and strong community support. It makes it easier to build complex interfaces while keeping code organized and reusable.\n\nAnother major advantage is the wide ecosystem surrounding React, including tools like React Router, Axios, and state management libraries. These tools make React suitable for both small and large-scale applications."
+    },
+    {
+      "id": "05df",
+      "author": "Esther",
+      "title": "The Role of AI in Everyday Life",
+      "category": "AI",
+      "content": "Artificial Intelligence is becoming part of everyday life in ways many people do not immediately notice. From voice assistants and recommendation systems to facial recognition and chatbots, AI is helping users interact with technology more efficiently.\n\nIn the future, AI is expected to play an even bigger role in areas such as healthcare, education, and business automation. As its use continues to grow, it is important to understand both its advantages and the ethical concerns that come with it."
+    },
+    {
+      "id": "50f9",
+      "author": "Esther",
+      "title": "How AI is Changing Education",
+      "category": "AI",
+      "content": "AI is transforming education by making learning more personalized and accessible. Intelligent tutoring systems can adapt lessons based on a student’s progress, helping learners focus on areas where they need the most support.\n\nTeachers and institutions are also benefiting from AI tools that automate grading, track performance, and provide insights into student engagement. This makes the learning process more efficient for both students and educators."
+    },
+    {
+      "id": "a896",
+      "author": "Esther",
+      "title": "AI in Modern Business",
+      "category": "AI",
+      "content": "Businesses are using AI to improve customer service, automate routine tasks, and make data-driven decisions. Chatbots, predictive analytics, and smart recommendation systems are some of the most common examples in today’s business environment.\n\nBy reducing manual work and improving accuracy, AI helps organizations save time and resources. At the same time, companies must ensure responsible use of AI to protect user privacy and maintain trust."
+    },
+    {
+      "id": "64cc",
+      "author": "Esther",
+      "title": "Benefits of AI in Healthcare",
+      "category": "AI",
+      "content": "AI has introduced important improvements in healthcare, especially in diagnosis, patient monitoring, and medical research. Machine learning systems can analyze large amounts of health data and assist doctors in identifying patterns more quickly.\n\nThis can lead to earlier diagnosis and better treatment planning. However, the use of AI in healthcare must be carefully managed to ensure patient safety, accuracy, and ethical responsibility."
+    },
+    {
+      "id": "3b81",
+      "author": "Esther",
+      "title": "AI and the Future of Work",
+      "category": "AI",
+      "content": "AI is reshaping the workplace by automating repetitive tasks and creating new opportunities for innovation. In many industries, employees are now using AI tools to improve productivity and handle large volumes of information more effectively.\n\nAlthough some roles may change because of automation, new careers are also emerging in areas like data science, AI development, and digital transformation. This means workers must continue learning and adapting to stay relevant."
+    },
+    {
+      "id": "8e4c",
+      "author": "Esther",
+      "title": "Understanding Responsible AI",
+      "category": "AI",
+      "content": "Responsible AI refers to the development and use of artificial intelligence in ways that are fair, transparent, and accountable. It focuses on reducing bias, protecting privacy, and ensuring that AI systems do not harm users or communities.\n\nAs AI becomes more powerful, responsible practices are becoming increasingly important. Developers, companies, and policymakers must work together to ensure that AI technologies benefit society in a safe and ethical way."
+    },
+    {
+      "id": "e013",
+      "author": "John Doe",
+      "title": "How AI Supports Content Creation",
+      "category": "AI",
+      "content": "AI tools are now widely used in content creation to generate ideas, improve writing, and assist with editing. Writers, marketers, and designers use these tools to save time and enhance productivity while maintaining creativity.\n\nEven though AI can speed up the creative process, human judgment is still essential. Originality, tone, and emotional connection are areas where human creators continue to add unique value."
+    },
+    {
+      "id": "469d",
+      "author": "Kevin Kiprotich",
+      "title": "Getting Started with Web Development",
+      "category": "Web Development",
+      "content": "Web development is the process of building websites and web applications that users can access through a browser. It involves technologies such as HTML for structure, CSS for styling, and JavaScript for interactivity.\n\nAs developers grow, they often move on to tools and frameworks like React, Bootstrap, and backend technologies. Learning web development opens the door to creating responsive, interactive, and useful digital experiences."
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
