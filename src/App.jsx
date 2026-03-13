@@ -3,12 +3,13 @@ import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 
-// import Home from "./pages/Home";
-// import AddBlog from "./pages/AddBlog";
-// import BlogDetails from "./pages/BlogDetails";
-// import EditBlog from "./pages/EditBlog";
+import Home from "./pages/Home";
+import AddBlog from "./pages/AddBlog";
+import BlogDetails from "./pages/BlogDetails";
+import EditBlog from "./pages/EditBlog";
 
 import Footer from "./components/Footer";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 function App() {
   return (
@@ -22,6 +23,11 @@ function App() {
           <Route path="/blogs/:id" element={<BlogDetails />} />
           <Route path="/edit/:id" element={<EditBlog />} />
         </Routes>
+        {/* <DemoA/> */}
+        {/* <ErrorBoundary>
+          < Hero heroName = "Captain America"/>
+        </ErrorBoundary> */}
+        
       </main>
 
       <Footer />
