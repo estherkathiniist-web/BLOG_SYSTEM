@@ -6,6 +6,7 @@ import AddBlog from "./pages/AddBlog";
 import BlogDetails from "./pages/BlogDetails";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import EditBlog from "./pages/EditBlog";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/addblog" element={<AddBlog />} />
           <Route path="/blogs/:id" element={<BlogDetails />} />
+          <Route path="/edit/:id" element={<EditBlog />} />
         </Routes>
       </main>
 

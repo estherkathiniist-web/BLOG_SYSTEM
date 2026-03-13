@@ -1,12 +1,6 @@
 {
   "blogs": [
     {
-      "id": "1",
-      "author": "Esther Kathini",
-      "title": "Introduction to React JS",
-      "content": "React is a popular JavaScript library used for building interactive user interfaces. It allows developers to create reusable components, making applications easier to organize and maintain as they grow.\n\nOne of the reasons React is widely used is its efficient way of updating the DOM through the virtual DOM. This improves performance and gives developers a structured way to build modern single-page applications."
-    },
-    {
       "id": "2",
       "author": "Bigman Kelly",
       "title": "Understanding Components in React",

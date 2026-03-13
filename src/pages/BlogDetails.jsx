@@ -1,13 +1,25 @@
 import React, { useEffect, useState } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const BlogDetails = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
 
   const [blog, setBlog] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
+  const handleDelete = () => {
+    axios
+      .delete(`http://localhost:5000/blogs/${id}`)
+      .then(() => {
+        navigate("/");
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
 
   useEffect(() => {
     axios
@@ -59,10 +71,18 @@ const BlogDetails = () => {
             {blog.content}
           </p>
 
-          <div className="mt-4">
+          <div className="mt-4 d-flex gap-2 flex-wrap">
             <Link to="/" className="btn btn-outline-dark">
               ← Back to Blogs
             </Link>
+
+            <Link to={`/edit/${blog.id}`} className="btn btn-outline-primary">
+              Edit
+            </Link>
+
+            <button onClick={handleDelete} className="btn btn-outline-danger">
+              Delete
+            </button>
           </div>
         </div>
       )}
