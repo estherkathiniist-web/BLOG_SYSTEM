@@ -1,12 +1,14 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
-import AddBlog from "./pages/AddBlog";
-import BlogDetails from "./pages/BlogDetails";
 import Navbar from "./components/Navbar";
+
+// import Home from "./pages/Home";
+// import AddBlog from "./pages/AddBlog";
+// import BlogDetails from "./pages/BlogDetails";
+// import EditBlog from "./pages/EditBlog";
+
 import Footer from "./components/Footer";
-import EditBlog from "./pages/EditBlog";
 
 function App() {
   return (
