@@ -7,9 +7,10 @@ import Home from "./pages/Home";
 import AddBlog from "./pages/AddBlog";
 import BlogDetails from "./pages/BlogDetails";
 import EditBlog from "./pages/EditBlog";
+import NotFound from "./components/NotFound";
 
 import Footer from "./components/Footer";
-import ErrorBoundary from "./components/ErrorBoundary";
+// import ErrorBoundary from "./components/ErrorBoundary";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/addblog" element={<AddBlog />} />
           <Route path="/blogs/:id" element={<BlogDetails />} />
           <Route path="/edit/:id" element={<EditBlog />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         {/* <DemoA/> */}
         {/* <ErrorBoundary>
